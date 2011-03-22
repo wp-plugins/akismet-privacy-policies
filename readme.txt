@@ -1,0 +1,32 @@
+=== Akismet Privacy Policies ===
+Contributors: Inpsyde, Bueltge, jottlieb, Nullbyte
+Tags: akismet, privacy, spam
+Requires at least: 3.0
+Tested up to: 3.1
+Stable tag: 1.0.0
+
+Ergänzt das Kommentarformular um datenschutzrechtliche Hinweise bei Nutzung des Plugins Akismet.
+
+== Description ==
+Der Einsatz des Anti-Spam-Plugins Akismet ist in Deutschland aus datenschutzrechtlichen Aspekten sehr bedenklich, da personenbezogene Daten auf Servern in den USA gespeichert werden.
+
+Um keine Angriffsfläche für Abmahnungen zu bieten, muss man die Benutzer vor dem Kommentieren auf das Speichern dieser Daten hinweisen. Dies übernimmt das Plugin.
+
+
+== Installation ==
+1. Plugin herunterladen, entpacken, in den Ordner wp-content/plugins/ laden und aktivieren. Oder direkt über den Adminbereich und 'Plugins' - 'Installieren' das Plugin suchen und installieren.
+2. Das Plugin sollte nun automatisch unter dem Kommentarfeld den Hinweistext anzeigen. Falls nicht, muss im Theme (z.B. comments.php) manuell folgender Code eingefügt werden:
+`<?php do_action( 'akismet_privacy_policies' ); ?>`
+
+== Frequently Asked Questions ==
+= Wo finde ich weitere Informationen zum Thema Datenschutz und Akismet? =
+
+Wir haben bei WordPress Deutschland einen [FAQ-Artikel](http://faq.wordpress-deutschland.org/hinweise-zum-datenschutz-beim-einsatz-von-akismet-in-deutschland/ "FAQ-Artikel zu Akismet").
+
+== Screenshots ==
+1. So sieht das Plugin im Einsatz aus.
+
+== Changelog ==
+= 1.0.0 =
+* Release
+
