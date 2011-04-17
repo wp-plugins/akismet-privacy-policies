@@ -24,6 +24,8 @@ Der Aufruf muss an der Stelle des Templates statt finden, wo die Ausgabe erschei
 
 Wir haben bei WordPress Deutschland einen [FAQ-Artikel](http://faq.wordpress-deutschland.org/hinweise-zum-datenschutz-beim-einsatz-von-akismet-in-deutschland/ "FAQ-Artikel zu Akismet").
 
+Rechtsanwalt Thomas Schwenke klärt in einem Artikel auf: [Usability VS Datenschutz – Datenschutzrechtliche Einwilligung ohne Opt-In?](http://spreerecht.de/datenschutz/2011-04/usability-vs-datenschutz-datenschutzrechtliche-einwilligung-ohne-opt-in)
+
 == Screenshots ==
 1. So sieht das Plugin im Einsatz aus.
 2. Die optionalen Einstellungen im Backend von WordPress
