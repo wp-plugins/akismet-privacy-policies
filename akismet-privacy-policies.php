@@ -37,12 +37,10 @@ class Akismet_Privacy_Policies {
 	// default for nitoce on comment form
 	public $notice = '<strong>Achtung:</strong> Ich erkläre mich damit einverstanden, dass alle 
 	eingegebenen Daten und meine IP-Adresse nur zum Zweck der Spamvermeidung durch das Programm 
-	<a href="http://akismet.com/">Akismet</a> in den USA überprüft und gespeichert werden. 
-	<a href="http://spreerecht.de/service/datenschutz#datenschutz_kommentare">Weitere Informationen 
-	zu Akismet und Widerrufsmöglichkeiten</a>.';
+	<a href="http://akismet.com/">Akismet</a> in den USA überprüft und gespeichert werden.';
 	// default for error message, if checkbox is not active on comment form
 	public $error_message = '<p><strong>Achtung:</strong> 
-	Du hast den datenschutzrechtlichen Hinweise nicht akzeptiert.</p>';
+	Du hast die datenschutzrechtlichen Hinweise nicht akzeptiert.</p>';
 	// default style to float checkbox
 	public $style = 'input#akismet_privacy_check { float: left; margin: 7px 7px 7px 0; width: 13px; }';
 	
@@ -387,7 +385,8 @@ class Akismet_Privacy_Policies {
 				die erforderlich sind, wenn du das Plugin Akismet einsetzt.' ) . '</p>'
 				. '<ul>'
 				. '<li>' . __( 'Du kannst diverse Einstellungen vornehmen, nutze dazu die Möglichkeiten innerhalb der Einstellungen.' ) . '</li>'
-				. '<li>' . __( 'Eingeloggte Anwender müssen sehen den Hinweis am Kommentarformular nicht.' ) . '</li>'
+				. '<li>' . __( 'Eingeloggte Anwender sehen den Hinweis am Kommentarformular nicht.' ) . '</li>'
+				. '<li>' . __( 'Weitere Informationen zum Thema findest du in <a href="http://faq.wordpress-deutschland.org/hinweise-zum-datenschutz-beim-einsatz-von-akismet-in-deutschland/">diesem Artikel der WordPress Deutschland FAQ</a>' ) . '</li>'
 				. '</ul>';
 			
 			return normalize_whitespace( $contextual_help );
