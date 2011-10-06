@@ -2,7 +2,7 @@
 Contributors: Inpsyde, Bueltge, jottlieb
 Tags: akismet, privacy, spam
 Requires at least: 3.0
-Tested up to: 3.1.1
+Tested up to: 3.3
 Stable tag: 1.1.0
 
 Ergänzt das Kommentarformular um datenschutzrechtliche Hinweise bei Nutzung des Plugins Akismet.
