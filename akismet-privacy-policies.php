@@ -4,7 +4,7 @@
  */
 /*
 Plugin Name: Akismet Privacy Policies
-Plugin URI: http://wordpress-deutschland.org/
+Plugin URI: http://wpde.org/
 Description: Ergänzt das Kommentarformular um datenschutzrechtliche Hinweise bei Nutzung des Plugins Akismet.
 Version: 1.0.0
 Author: Inpsyde GmbH
@@ -386,7 +386,7 @@ class Akismet_Privacy_Policies {
 				. '<ul>'
 				. '<li>' . __( 'Du kannst diverse Einstellungen vornehmen, nutze dazu die Möglichkeiten innerhalb der Einstellungen.' ) . '</li>'
 				. '<li>' . __( 'Eingeloggte Anwender sehen den Hinweis am Kommentarformular nicht.' ) . '</li>'
-				. '<li>' . __( 'Weitere Informationen zum Thema findest du in <a href="http://faq.wordpress-deutschland.org/hinweise-zum-datenschutz-beim-einsatz-von-akismet-in-deutschland/">diesem Artikel der WordPress Deutschland FAQ</a>' ) . '</li>'
+				. '<li>' . __( 'Weitere Informationen zum Thema findest du in <a href="http://faq.wpde.org/hinweise-zum-datenschutz-beim-einsatz-von-akismet-in-deutschland/">diesem Artikel der WordPress Deutschland FAQ</a>' ) . '</li>'
 				. '</ul>';
 			
 			return normalize_whitespace( $contextual_help );
