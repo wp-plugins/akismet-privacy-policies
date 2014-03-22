@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 /**
  * Plugin Name: Akismet Privacy Policies
  * Plugin URI:  http://wpde.org/
@@ -6,7 +6,7 @@
  * Version:     1.1.0
  * Author:      Inpsyde GmbH
  * Author URI:  http://inpsyde.com/
- * License:     GPLv3
+ * License:     GPLv2+
  */
 
 class Akismet_Privacy_Policies {
@@ -66,7 +66,8 @@ class Akismet_Privacy_Policies {
 	 * @return $classobj
 	 */
 	public static function get_object() {
-		if ( null === self::$classobj ) {
+		
+		if ( NULL === self::$classobj ) {
 			self::$classobj = new self;
 		}
 	
